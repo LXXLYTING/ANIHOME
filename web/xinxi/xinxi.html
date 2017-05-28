@@ -1,0 +1,230 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>宠物信息</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- css -->
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<!-- skin color -->
+<link href="color/default.css" rel="stylesheet">
+<!--[if lt IE 7]>
+	<link href="css/font-awesome-ie7.css" type="text/css" rel="stylesheet">  
+<![endif]-->
+	<link href="css/font-awesome.css" type="text/css" rel="stylesheet">  
+
+<link rel="shortcut icon" href="img/favicon.ico">
+</head>
+<body>
+<!-- navbar -->
+<div class="navbar-wrapper">
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container" >
+				<!-- Responsive navbar -->
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</a>
+				<h1 class="brand"><a href="../../index.html" tppabs="#">ANIHOME</a></h1>
+				<!-- navigation -->
+				<nav class="pull-right nav-collapse collapse">
+				<ul id="menu-main" class="nav">
+					<li><a title="领养计划" href="#works">领养计划</a></li>
+					<li><a title="联系我们" href="#contact">联系我们</a></li>
+				</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<section id="works" class="section">
+<div class="container" >
+	<h1 style=" font-size:20px; background-color:#FFCC00; width:120px; padding-top:5px; padding-bottom:5px; color:#f2f2f2; padding-left:15px; padding-right:15px;">
+	  <strong>为牛奶寻新窝</strong></h1>
+	
+	<div class="row">
+		<div class="span6">
+			<div class="aligncenter">
+				<img src="img1/pic1.jpg" alt="" />
+			</div>
+			<div class="aligncenter">
+				<img src="img1/pic2.jpg" alt="" />
+			</div>
+			<div class="aligncenter">
+				<img src="img1/pic3.jpg" alt="" />
+			</div>
+		</div>
+		
+		
+		<div class="span4 offset1">
+			<table height="180" width="400">
+              <tr>
+                   <th align="left" style="font-size:16px">BOIN123</th>
+                   <th align="right" style="font-size:16px">江苏无锡</th>
+               </tr>
+               <tr>     
+                   <th colspan="2" style="font-size:14px" align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本人要出国，没办法养这个小家伙了，他叫牛奶，刚刚四个月大，比较乖，平时也不闹，希望找到一个好好爱它的人。同城最好，狗粮等都有。</th>
+                </tr>
+           </table>
+	  </div>
+	  
+	  <div class="span4 offset1">
+			<table height="180"  width="400">
+              <tr>
+                   <th align="left" style="font-size:15px" width="270px"><img src="img1/chongwu.png"></th>
+               </tr>
+			   <tr>
+                   <th align="left" style="font-size:15px">&nbsp;状态</th>
+                   <th align="left" style="font-size:15px">健康</th>
+               </tr>
+			   <tr>
+                   <th align="left" style="font-size:15px">&nbsp;医疗</th>
+                   <th align="left" style="font-size:15px">已注射疫苗</th>
+               </tr>
+			   <tr>
+                   <th align="left" style="font-size:15px">&nbsp;宠龄</th>
+                   <th align="left" style="font-size:15px">8个月</th>
+               </tr>
+               
+           </table>
+	  </div>
+	  
+	    
+	  <div class="span13 offset1">
+			<table  width="400">
+               <tr style="20px">
+                   <th width="350">
+				   <input type="text" name="firstname" value=" "style="width:350px; height:30px;">
+				   </th>
+                   <th valign="top" style="font-size:15px" align="right"><img src="img1/submit.png" width="25px"></th>
+               </tr>          
+           </table>
+	  </div>	
+	</div>
+</div>
+<!-- /.container -->
+</section>
+
+<!-- spacer section -->
+<section class="spacer bg2">
+<div class="container">
+	<div class="row">
+		<div class="span12">
+			<div class="aligncenter">
+				<div id="">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+<!-- end spacer section -->
+<!-- section: contact -->
+<section id="contact" class="section green">
+<div class="container">
+	<h4>联系我们 </h4>
+	<p>
+		ANIHOME以珍爱生命，倡导精神文明和发扬人道主义精神为思想基础，以保护动物，维护动物的生存权利、以及改善和提高小动物的生命条件、饲养水平为宗旨，坚决反对任何虐待、残害动物的行为和思想。
+	</p>
+	<div class="blankdivider30">
+	</div>
+	<div class="row">
+		<div class="span12">
+			<div class="cform" id="contact-form">
+				<div id="sendmessage">
+					 Your message has been sent. Thank you!
+				</div>
+				<form action="contact/contact.php" method="post" class="contactForm">
+					<div class="row">
+						<div class="span6">
+							<div class="field your-name">
+								<input type="text" name="your-name" placeholder="姓名" class="cform-text" size="40" data-rule="maxlen:4" data-msg="Please enter at least 4 chars" />
+								<div class="validation">
+								</div>
+							</div>
+							<div class="field your-email">
+								<input type="text" name="your-email" placeholder="邮箱" class="cform-text" size="40" data-rule="email" data-msg="Please enter a valid email" />
+								<div class="validation">
+								</div>
+							</div>
+							<div class="field subject">
+								<input type="text" name="subject" placeholder="主题" class="cform-text" size="40" data-rule="maxlen:4" data-msg="Please enter at least 8 chars of subject" />
+								<div class="validation">
+								</div>
+							</div>
+						</div>
+						<div class="span6">
+							<div class="field message">
+								<textarea name="message" class="cform-textarea" cols="40" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+								<div class="validation">
+								</div>
+							</div>
+							<input type="submit" value="发送" class="btn btn-theme pull-left">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<!-- ./span12 -->
+	</div>
+</div>
+</section>
+<footer>
+<div class="container">
+	<div class="row">
+		<div class="span6 offset3">
+			<ul class="social-networks">
+				<li><a href="#"><i class="icon-circled icon-bgdark icon-instagram icon-2x"></i></a></li>
+				<li><a href="#"><i class="icon-circled icon-bgdark icon-twitter icon-2x"></i></a></li>
+				<li><a href="#"><i class="icon-circled icon-bgdark icon-dribbble icon-2x"></i></a></li>
+				<li><a href="#"><i class="icon-circled icon-bgdark icon-pinterest icon-2x"></i></a></li>
+			</ul>
+			<p class="copyright">Copyright &copy; 2017.Jiangnan University 
+</p>
+		</div>
+	</div>
+</div>
+<!-- ./container -->
+</footer>
+
+<div class="mask" style="display: none; z-index: 1200; position: fixed; top: 0px; width: 100%; height: 100%; align-items: center; justify-content: center; background-color: rgba(0, 0, 0, 0.5);">
+	<div class="video_container" style="position:relative;width: 800px; height: 450px; background-color: rgb(0, 0, 0);">
+		<video class="video" controls autoplay src="" width="800" height="450"></video>
+		<i class="close_button icon-remove"></i>
+	</div>
+</div>
+
+<a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+<!-- nav -->
+<script src="js/jquery.scrollTo.js"></script>
+<script src="js/jquery.nav.js"></script>
+<!-- localScroll -->
+<script src="js/jquery.localscroll-1.2.7-min.js"></script>
+<!-- bootstrap -->
+<script src="js/bootstrap.js"></script>
+<!-- prettyPhoto -->
+<script src="js/jquery.prettyPhoto.js"></script>
+<!-- Works scripts -->
+<script src="js/isotope.js"></script>
+<!-- flexslider -->
+<script src="js/jquery.flexslider.js"></script>
+<!-- inview -->
+<script src="js/inview.js"></script>
+<!-- animation -->
+<script src="js/animate.js"></script>
+<!-- twitter -->
+<script src="js/jquery.tweet.js"></script>
+<!-- contact form -->
+<script src="js/validate.js"></script>
+<!-- custom functions -->
+<script src="js/custom.js"></script>
+<!-- video -->
+<script src="js/video.js"></script>
+</body>
+</html>
