@@ -155,15 +155,17 @@
     width: 770px;
   }
   .span7 {
+  margin-left:50px;
     width: 670px;
   }
   .span6 {
-    width: 570px;
+    width: 870px;
   }
   .span5 {
     width: 470px;
   }
   .span4 {
+  margin-left:100px;
     width: 370px;
 	padding:30px;
 	background-color:#eae8e9;
@@ -205,14 +207,14 @@
     margin-left: 430px;
   }
   .offset3 {
-    margin-left: 330px;
+    margin-left: 180px;
   }
   .offset2 {
     margin-left: 230px;
   }
   .offset1 {
-    margin-left: 30px;
-	margin-bottom:30px;
+    margin-left: 20px;
+	margin-bottom:17px;
   }
   .row-fluid {
     width: 100%;

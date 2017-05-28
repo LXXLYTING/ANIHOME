@@ -6165,3 +6165,14 @@ a.badge:focus {
 .affix {
   position: fixed;
 }
+.town{
+  padding-left:100px;
+}
+
+.textt{
+  width:150px;
+  text-align:center;
+  background-color:#FFCC00;
+  padding:8px;
+  margin-bottom:30px;
+}
